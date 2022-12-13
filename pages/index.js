@@ -68,7 +68,12 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image
+                src={deved}
+                alt="Deved Icon"
+                layout="fill"
+                objectFit="cover"
+              />
             </div>
           </div>
         </section>
@@ -90,7 +95,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="Design Icon" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-teal-100 ">
                 Beautiful Designs
               </h3>
@@ -107,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-teal-100">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="Code Icon" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-teal-100">
                 Code your dream project
               </h3>
@@ -124,7 +129,12 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-teal-100">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900">
-              <Image src={consulting} width={100} height={100} />
+              <Image
+                src={consulting}
+                alt="Consulting Icon"
+                width={100}
+                height={100}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-teal-100">
                 Consulting
               </h3>
@@ -166,6 +176,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={web1}
+                alt="Website Image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -175,6 +186,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={web2}
+                alt="Website Image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -184,6 +196,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={web3}
+                alt="Website Image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -193,6 +206,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={web4}
+                alt="Website Image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -202,6 +216,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={web5}
+                alt="Website Image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -211,6 +226,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={web6}
+                alt="Website Image"
               />
             </div>
           </div>
